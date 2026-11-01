@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Kekaisaran Duat",
+    "leaderName": "Firaun Abadi",
+    "adjective": ["Duatian"],
+    "cityNames": ["Memphis", "Thebes", "Abydos", "Heliopolis", "Giza", "Sais", "Edfu", "Karnak"],
+    "unique": [
+      "Cannot produce [Military] units with [Production]",
+      "Gain [2] [Essence] <upon killing a unit>",
+      "Can purchase [Military] units with [Essence]"
+    ],
+    "uniqueUnits": ["Medjay", "Anubis Warrior"],
+    "uniqueBuildings": ["Obelisk of Ra"],
+    "innerColor": [255, 215, 0],
+    "outerColor": [20, 20, 20],
+    "startBias": ["Desert"],
+    "civilopediaText": [
+      {"text": "Sisa-sisa alam kematian yang runtuh setelah The Sundering. Duat bukanlah kerajaan orang hidup, melainkan perpanjangan dari kehendak para dewa kematian."},
+      {"text": "Mereka tidak memproduksi tentara; mereka membangkitkan yang telah gugur."}
+    ]
+  },
+  {
+    "name": "Legiun Aesir",
+    "leaderName": "Odin yang Berkeliaran",
+    "adjective": ["Aesir"],
+    "cityNames": ["Asgard", "Midgard", "Vanaheim", "Alfheim", "Jotunheim", "Niflheim", "Muspelheim", "Helheim"],
+    "unique": [
+      "Cannot make peace",
+      "Gain [15] [Production] <upon winning a battle>",
+      "Triggers a [Aesir Respawn] event <upon death>"
+    ],
+    "uniqueUnits": ["Berserker", "Valkyrie"],
+    "uniqueBuildings": ["Runestone"],
+    "innerColor": [180, 30, 30],
+    "outerColor": [40, 40, 60],
+    "startBias": ["Tundra"],
+    "civilopediaText": [
+      {"text": "Legiun Aesir terperangkap dalam perang abadi. Mereka tidak mengenal damai, hanya kemenangan atau kematian yang mulia."}
+    ]
+  },
+  {
+    "name": "Hierarki Atlantis",
+    "leaderName": "Raja-Pendeta Poseidon",
+    "adjective": ["Atlantean"],
+    "cityNames": ["Atlantis", "Poseidonia", "Cleito", "Eumelus", "Gadeirus", "Azaes", "Diaprepes"],
+    "unique": [
+      "Cannot build [Settler]",
+      "Capital city gets +5 tile work range",
+      "Puppet cities provide full [Science] and [Culture]"
+    ],
+    "uniqueUnits": ["Triton Guard"],
+    "uniqueBuildings": ["Ley Line Menhir"],
+    "innerColor": [0, 200, 200],
+    "outerColor": [10, 30, 80],
+    "startBias": ["Coast"],
+    "civilopediaText": [
+      {"text": "Atlantis adalah satu kota yang berpikir dirinya dunia. Setelah The Sundering, mereka menarik diri ke pulau terakhir mereka dan menguasai Ley Line."}
+    ]
+  },
+  {
+    "name": "Klan Jinn",
+    "leaderName": "Sultan Bayangan",
+    "adjective": ["Jinn"],
+    "cityNames": ["Al-Jinn", "Iram", "Ubar", "Shaddad", "Zafir", "Ad", "Thamud", "Mada'in"],
+    "unique": [
+      "Units gain [Phase Shift] promotion",
+      "Trade routes provide [1] [Science] in addition to [Gold]",
+      "Gain [1] Spy <upon entering the [Classical era]>"
+    ],
+    "uniqueUnits": ["Hashashin", "Jinn Siphon"],
+    "uniqueBuildings": ["Hall of Whispers"],
+    "innerColor": [80, 0, 120],
+    "outerColor": [15, 15, 25],
+    "startBias": ["Desert"],
+    "civilopediaText": [
+      {"text": "Klan Jinn bergerak di antara dimensi. Mereka tidak pernah sepenuhnya hadir di satu tempat, dan tidak pernah sepenuhnya hilang."}
+    ]
+  },
+  {
+    "name": "Suku Bayangan",
+    "leaderName": "Penjaga Hutan Purba",
+    "adjective": ["Shadowfolk"],
+    "cityNames": ["Shadowvale", "Mosswatch", "Thornhide", "Darkroot", "Fernreach", "Barkhold", "Gladehome"],
+    "unique": [
+      "Units gain [Forest Invisibility] promotion",
+      "Trading Post provides [1] [Food] and [1] [Production] from [Forest] tiles",
+      "Cannot build [Farm]"
+    ],
+    "uniqueUnits": ["Shadow Scout"],
+    "uniqueBuildings": ["Trading Post"],
+    "innerColor": [30, 100, 30],
+    "outerColor": [10, 30, 10],
+    "startBias": ["Forest"],
+    "civilopediaText": [
+      {"text": "Suku Bayangan tidak menaklukkan alam; mereka menjadi bagian darinya. Di hutan purba, mereka adalah bisikan yang tidak pernah terlihat."}
+    ]
+  },
+  {
+    "name": "Dinasti Matahari",
+    "leaderName": "Raja-Pendeta Shamash",
+    "adjective": ["Solarian"],
+    "cityNames": ["Ur", "Uruk", "Babylon", "Nippur", "Lagash", "Eridu", "Kish", "Larsa"],
+    "unique": [
+      "Cannot build [Settler]",
+      "Can annex [City-State] with sufficient [Influence]",
+      "Each [Specialist] provides +1 [Science]"
+    ],
+    "uniqueUnits": ["Sun Priest"],
+    "uniqueBuildings": ["Ziggurat of Shamash"],
+    "innerColor": [255, 180, 0],
+    "outerColor": [120, 60, 0],
+    "startBias": ["River"],
+    "civilopediaText": [
+      {"text": "Dinasti Matahari percaya bahwa mereka adalah umat yang terpilih. Mereka tidak perlu memperluas diri; mereka hanya perlu menyerap cahaya."}
+    ]
+  }
+]

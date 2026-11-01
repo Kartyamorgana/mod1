@@ -1,0 +1,14 @@
+[
+  {"name": "Civilian", "movementType": "Land"},
+  {"name": "Melee", "movementType": "Land"},
+  {"name": "Ranged", "movementType": "Land"},
+  {"name": "Scout", "movementType": "Land"},
+  {"name": "Mounted", "movementType": "Land"},
+  {"name": "Siege", "movementType": "Land"},
+  {"name": "Naval Melee", "movementType": "Water"},
+  {"name": "Naval Ranged", "movementType": "Water"},
+  {"name": "Sub", "movementType": "Water"},
+  {"name": "Air", "movementType": "Air"},
+  {"name": "Missile", "movementType": "Air"},
+  {"name": "Armor", "movementType": "Land"}
+]

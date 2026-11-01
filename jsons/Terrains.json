@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Ley Line",
+    "type": "TerrainFeature",
+    "occursOn": ["Grassland", "Plains", "Desert"],
+    "movementCost": 1,
+    "science": 2,
+    "uniques": ["[+1] [Science] <with [Menhir]>"],
+    "civilopediaText": [{"text": "Garis energi purba yang mengalir di bawah permukaan dunia."}]
+  },
+  {
+    "name": "Hutan Purba",
+    "type": "TerrainFeature",
+    "occursOn": ["Grassland", "Plains"],
+    "movementCost": 2,
+    "production": 1,
+    "food": 1,
+    "uniques": ["[+1] [Production] <with [Trading Post]>"],
+    "civilopediaText": [{"text": "Hutan yang lebih tua dari peradaban mana pun, tempat para dewa pernah berjalan."}]
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Jalan Olympia",
+    "era": "Age of Heroes",
+    "uniques": ["[+1] [Culture] from every [City-State] ally"],
+    "policies": [
+      {
+        "name": "Diplomasi Dewa",
+        "row": 0,
+        "column": 0,
+        "uniques": ["[+50]% [Influence] from [Quests]"],
+        "civilopediaText": [{"text": "Kata-kata manis adalah senjata para dewa."}]
+      },
+      {
+        "name": "Simfoni Aliansi",
+        "row": 1,
+        "column": 0,
+        "requires": ["Diplomasi Dewa"],
+        "uniques": ["[+1] [Science] from every [City-State] friend"],
+        "civilopediaText": [{"text": "Aliansi adalah melodi yang dimainkan bersama."}]
+      },
+      {
+        "name": "Vassalage Ilahi",
+        "row": 2,
+        "column": 0,
+        "requires": ["Simfoni Aliansi"],
+        "uniques": ["[+10]% [Gold] from [vassal] cities"],
+        "civilopediaText": [{"text": "Yang lemah melayani yang kuat, dan yang kuat melayani dewa."}]
+      }
+    ]
+  },
+  {
+    "name": "Jalan Duat",
+    "era": "Age of Heroes",
+    "uniques": ["[+1] [Essence] per turn"],
+    "policies": [
+      {
+        "name": "Ritual Kematian",
+        "row": 0,
+        "column": 0,
+        "uniques": ["[+1] [Essence] <upon killing a unit>"],
+        "civilopediaText": [{"text": "Setiap kematian adalah persembahan."}]
+      },
+      {
+        "name": "Necropolis",
+        "row": 1,
+        "column": 0,
+        "requires": ["Ritual Kematian"],
+        "uniques": ["[+2] [Faith] from every [Obelisk of Ra]"],
+        "civilopediaText": [{"text": "Kota orang mati lebih sibuk daripada kota orang hidup."}]
+      },
+      {
+        "name": "Kebangkitan",
+        "row": 2,
+        "column": 0,
+        "requires": ["Necropolis"],
+        "uniques": ["Can purchase [Military] units with [Essence]"],
+        "civilopediaText": [{"text": "Yang gugur tidak pernah benar-benar pergi."}]
+      }
+    ]
+  },
+  {
+    "name": "Jalan Aesir",
+    "era": "Age of Heroes",
+    "uniques": ["[+15]% [Production] when building [Military] units"],
+    "policies": [
+      {
+        "name": "Amukan Perang",
+        "row": 0,
+        "column": 0,
+        "uniques": ["[+1] [Production] <upon winning a battle>"],
+        "civilopediaText": [{"text": "Setiap kemenangan adalah bahan bakar berikutnya."}]
+      },
+      {
+        "name": "Valkyrie",
+        "row": 1,
+        "column": 0,
+        "requires": ["Amukan Perang"],
+        "uniques": ["[+1] [Culture] <upon killing a unit>"],
+        "civilopediaText": [{"text": "Mereka yang memilih yang gugur untuk bertarung lagi."}]
+      },
+      {
+        "name": "Perang Abadi",
+        "row": 2,
+        "column": 0,
+        "requires": ["Valkyrie"],
+        "uniques": ["[+10]% [Strength] <when at war>"],
+        "civilopediaText": [{"text": "Damai adalah ilusi; perang adalah satu-satunya kenyataan."}]
+      }
+    ]
+  },
+  {
+    "name": "Jalan Jinn",
+    "era": "Age of Heroes",
+    "uniques": ["[+1] [Science] from every [Trade route]"],
+    "policies": [
+      {
+        "name": "Bayangan Berbicara",
+        "row": 0,
+        "column": 0,
+        "uniques": ["[+50]% spy effectiveness [in all cities]"],
+        "civilopediaText": [{"text": "Rahasia adalah mata uang yang lebih berharga dari emas."}]
+      },
+      {
+        "name": "Pasar Gelap",
+        "row": 1,
+        "column": 0,
+        "requires": ["Bayangan Berbicara"],
+        "uniques": ["[+2] [Gold] from every [Hall of Whispers]"],
+        "civilopediaText": [{"text": "Di pasar gelap, tidak ada embargo yang berlaku."}]
+      },
+      {
+        "name": "Fase Dimensi",
+        "row": 2,
+        "column": 0,
+        "requires": ["Pasar Gelap"],
+        "uniques": ["[+1] [Movement] for [Melee] units"],
+        "civilopediaText": [{"text": "Jarak hanyalah ilusi bagi mereka yang tahu cara melipat ruang."}]
+      }
+    ]
+  }
+]

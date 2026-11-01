@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Essence",
+    "resourceType": "Strategic",
+    "terrainsCanBeFoundOn": ["Desert", "Plains"],
+    "revealedBy": "Mysticism",
+    "civilopediaText": [{"text": "Sisa energi kehidupan yang mengendap di tanah setelah The Sundering."}]
+  },
+  {
+    "name": "Artifact",
+    "resourceType": "Strategic",
+    "terrainsCanBeFoundOn": ["Grassland", "Forest"],
+    "revealedBy": "Writing",
+    "civilopediaText": [{"text": "Peninggalan dari alam dewa yang runtuh, menyimpan kekuatan yang terlupakan."}]
+  },
+  {
+    "name": "Ichor",
+    "resourceType": "Luxury",
+    "terrainsCanBeFoundOn": ["Coast", "Ocean"],
+    "revealedBy": "Sailing",
+    "civilopediaText": [{"text": "Darah para dewa yang menetes ke laut, memberikan kehidupan dan kegilaan."}]
+  },
+  {
+    "name": "Adamantine",
+    "resourceType": "Strategic",
+    "terrainsCanBeFoundOn": ["Hills", "Mountain"],
+    "revealedBy": "Iron Working",
+    "civilopediaText": [{"text": "Logam yang lebih keras dari baja, hanya bisa ditempa oleh api ilahi."}]
+  }
+]

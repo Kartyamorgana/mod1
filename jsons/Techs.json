@@ -1,0 +1,111 @@
+[
+  {
+    "name": "Mysticism",
+    "cost": 25,
+    "era": "Age of Myths",
+    "column": 0,
+    "row": 0,
+    "quote": "Pada awalnya, hanya ada kekacauan dan bisikan para dewa.",
+    "uniques": []
+  },
+  {
+    "name": "Bronze Working",
+    "cost": 45,
+    "era": "Age of Myths",
+    "column": 1,
+    "row": 0,
+    "requiredTech": "Mysticism",
+    "quote": "Logam pertama ditempa dari tulang bumi.",
+    "uniques": []
+  },
+  {
+    "name": "Astrology",
+    "cost": 45,
+    "era": "Age of Myths",
+    "column": 0,
+    "row": 1,
+    "requiredTech": "Mysticism",
+    "quote": "Bintang-bintang adalah peta para dewa.",
+    "uniques": []
+  },
+  {
+    "name": "Sailing",
+    "cost": 55,
+    "era": "Age of Myths",
+    "column": 1,
+    "row": 1,
+    "requiredTech": "Astrology",
+    "quote": "Laut adalah jalan menuju dunia lain.",
+    "uniques": []
+  },
+  {
+    "name": "Writing",
+    "cost": 55,
+    "era": "Age of Myths",
+    "column": 2,
+    "row": 0,
+    "requiredTech": "Bronze Working",
+    "quote": "Kata-kata pertama diukir untuk mengenang para dewa.",
+    "uniques": []
+  },
+  {
+    "name": "Iron Working",
+    "cost": 80,
+    "era": "Age of Heroes",
+    "column": 2,
+    "row": 1,
+    "requiredTech": "Bronze Working",
+    "quote": "Besi adalah logam perang, dan perang adalah urusan para hero.",
+    "uniques": []
+  },
+  {
+    "name": "Horseback Riding",
+    "cost": 80,
+    "era": "Age of Heroes",
+    "column": 3,
+    "row": 0,
+    "requiredTech": "Sailing",
+    "quote": "Kuda membawa penunggangnya lebih dekat ke matahari.",
+    "uniques": []
+  },
+  {
+    "name": "Currency",
+    "cost": 90,
+    "era": "Age of Heroes",
+    "column": 3,
+    "row": 1,
+    "requiredTech": "Writing",
+    "quote": "Koin pertama adalah persembahan kepada dewa perdagangan.",
+    "uniques": []
+  },
+  {
+    "name": "Divine Right",
+    "cost": 150,
+    "era": "Age of Gods",
+    "column": 4,
+    "row": 0,
+    "requiredTech": "Iron Working",
+    "quote": "Raja adalah bayangan dewa di dunia fana.",
+    "uniques": []
+  },
+  {
+    "name": "Theology",
+    "cost": 180,
+    "era": "Age of Gods",
+    "column": 5,
+    "row": 0,
+    "requiredTech": "Divine Right",
+    "quote": "Para dewa memiliki banyak nama, tetapi satu esensi.",
+    "uniques": []
+  },
+  {
+    "name": "Titanomachy",
+    "cost": 300,
+    "era": "Age of Titans",
+    "column": 6,
+    "row": 0,
+    "requiredTech": "Theology",
+    "quote": "Perang para Titan adalah akhir dari segala sesuatu.",
+    "uniques": []
+  }
+]

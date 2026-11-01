@@ -1,0 +1,149 @@
+[
+  {
+    "name": "Settler",
+    "unitType": "Civilian",
+    "cost": 106,
+    "movement": 2,
+    "uniques": ["Founds a new city", "Excess Food converted to Production when under construction"],
+    "civilopediaText": [{"text": "Pionir yang membawa benih peradaban ke dunia yang kacau."}]
+  },
+  {
+    "name": "Worker",
+    "unitType": "Civilian",
+    "cost": 70,
+    "movement": 2,
+    "uniques": ["Can build [Land] improvements on tiles"],
+    "civilopediaText": [{"text": "Tangan-tangan yang membangun kembali dunia."}]
+  },
+  {
+    "name": "Warrior",
+    "unitType": "Melee",
+    "cost": 40,
+    "movement": 2,
+    "strength": 8,
+    "civilopediaText": [{"text": "Pejuang dasar dari sisa-sisa umat."}]
+  },
+  {
+    "name": "Scout",
+    "unitType": "Scout",
+    "cost": 25,
+    "movement": 2,
+    "strength": 5,
+    "uniques": ["Ignores terrain cost"],
+    "civilopediaText": [{"text": "Mata dan telinga peradaban."}]
+  },
+  {
+    "name": "Medjay",
+    "unitType": "Melee",
+    "cost": 45,
+    "movement": 2,
+    "strength": 10,
+    "requiredTech": "Bronze Working",
+    "uniqueTo": "Kekaisaran Duat",
+    "replaces": "Spearman",
+    "uniques": ["Can build [Land] improvements on tiles"],
+    "civilopediaText": [{"text": "Penjaga Duat yang mampu membangun jalan di tanah netral."}]
+  },
+  {
+    "name": "Anubis Warrior",
+    "unitType": "Melee",
+    "cost": 80,
+    "movement": 2,
+    "strength": 18,
+    "requiredTech": "Divine Right",
+    "uniqueTo": "Kekaisaran Duat",
+    "uniques": ["Gain [1] [Essence] <upon killing a unit>"],
+    "civilopediaText": [{"text": "Prajurit berkepala serigala yang mengumpulkan esensi dari yang gugur."}]
+  },
+  {
+    "name": "Hoplite",
+    "unitType": "Melee",
+    "cost": 45,
+    "movement": 2,
+    "strength": 11,
+    "requiredTech": "Bronze Working",
+    "upgradesTo": "Myrmidon",
+    "civilopediaText": [{"text": "Falangs Yunani kuno, dibangkitkan kembali dalam The Convergence."}]
+  },
+  {
+    "name": "Myrmidon",
+    "unitType": "Melee",
+    "cost": 90,
+    "movement": 2,
+    "strength": 22,
+    "requiredTech": "Divine Right",
+    "civilopediaText": [{"text": "Pasukan elit Achilles, tak terkalahkan di medan terbuka."}]
+  },
+  {
+    "name": "Berserker",
+    "unitType": "Melee",
+    "cost": 90,
+    "movement": 3,
+    "strength": 20,
+    "requiredTech": "Bronze Working",
+    "uniqueTo": "Legiun Aesir",
+    "uniques": ["+50% Strength when attacking from [Water]"],
+    "civilopediaText": [{"text": "Pejuang Aesir yang mengenal tidak ada rasa takut, hanya amukan."}]
+  },
+  {
+    "name": "Hashashin",
+    "unitType": "Melee",
+    "cost": 75,
+    "movement": 3,
+    "strength": 14,
+    "requiredTech": "Iron Working",
+    "uniqueTo": "Klan Jinn",
+    "uniques": ["Invisible to others"],
+    "civilopediaText": [{"text": "Pembunuh bayangan Jinn yang bergerak tanpa jejak."}]
+  },
+  {
+    "name": "Shadow Scout",
+    "unitType": "Scout",
+    "cost": 30,
+    "movement": 3,
+    "strength": 6,
+    "uniqueTo": "Suku Bayangan",
+    "uniques": ["Ignores terrain cost", "Invisible to others <in [Forest] tiles>"],
+    "civilopediaText": [{"text": "Mata-mata hutan yang menyatu dengan dedaunan."}]
+  },
+  {
+    "name": "Triton Guard",
+    "unitType": "Melee",
+    "cost": 100,
+    "movement": 2,
+    "strength": 24,
+    "requiredTech": "Divine Right",
+    "uniqueTo": "Hierarki Atlantis",
+    "uniques": ["Can embark and move over [Coast] tiles without penalty"],
+    "civilopediaText": [{"text": "Penjaga pulau terakhir Atlantis, mahir di darat dan laut."}]
+  },
+  {
+    "name": "Sun Priest",
+    "unitType": "Civilian",
+    "cost": 60,
+    "movement": 2,
+    "uniqueTo": "Dinasti Matahari",
+    "uniques": ["Can spread religion", "Can construct [Ziggurat of Shamash]"],
+    "civilopediaText": [{"text": "Pendeta matahari yang membawa cahaya Shamash ke kota-kota."}]
+  },
+  {
+    "name": "Valkyrie",
+    "unitType": "Mounted",
+    "cost": 110,
+    "movement": 4,
+    "strength": 20,
+    "requiredTech": "Horseback Riding",
+    "uniqueTo": "Legiun Aesir",
+    "uniques": ["Triggers a [Valkyrie Respawn] event <upon death>"],
+    "civilopediaText": [{"text": "Mereka yang memilih yang gugur untuk bertarung sekali lagi."}]
+  },
+  {
+    "name": "Jinn Siphon",
+    "unitType": "Civilian",
+    "cost": 80,
+    "movement": 2,
+    "uniqueTo": "Klan Jinn",
+    "uniques": ["Can spread religion", "Gain [50] [Science] <by consuming this unit>"],
+    "civilopediaText": [{"text": "Penyedot energi dimensi yang mengubah iman menjadi pengetahuan."}]
+  }
+]

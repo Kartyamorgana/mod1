@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Kumpulkan Essence",
+    "description": "Kumpulkan 50 Essence untuk memenuhi permintaan City-State.",
+    "type": "Individual",
+    "influence": 60,
+    "duration": 20,
+    "minimumCivs": 1
+  },
+  {
+    "name": "Bunuh Monster Mitologi",
+    "description": "Hancurkan unit monster mitologi (Hydra/Griffin/Cerberus) di wilayah netral.",
+    "type": "Individual",
+    "influence": 80,
+    "duration": 25,
+    "minimumCivs": 1
+  },
+  {
+    "name": "Bangun Kuil",
+    "description": "Bangun Kuil Dewa di kota terdekat dengan City-State.",
+    "type": "Individual",
+    "influence": 50,
+    "duration": 15,
+    "minimumCivs": 1
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Anak Zeus",
+    "type": "Pantheon",
+    "uniques": ["[+1] [Production] from every [Temple of Zeus]"],
+    "civilopediaText": [{"text": "Badai adalah berkah, dan setiap kuil adalah benteng produksi."}]
+  },
+  {
+    "name": "Mata Ra",
+    "type": "Pantheon",
+    "uniques": ["[+2] [Faith] from every [Obelisk of Ra]"],
+    "civilopediaText": [{"text": "Matahari melihat segalanya; obelisk adalah matanya di dunia fana."}]
+  },
+  {
+    "name": "Aegis of the Sea",
+    "type": "Pantheon",
+    "uniques": ["[+1] [Science] from every [Ley Line Menhir]"],
+    "civilopediaText": [{"text": "Ley Line adalah urat nadi dunia, dan Atlantis adalah penjaganya."}]
+  },
+  {
+    "name": "Perang Suci",
+    "type": "Founder",
+    "uniques": ["[+20]% [Strength] for cities following this religion"],
+    "civilopediaText": [{"text": "Mereka yang berperang atas nama dewa tidak mengenal rasa takut."}]
+  },
+  {
+    "name": "Karavan Jinn",
+    "type": "Founder",
+    "uniques": ["[+1] [Science] from every [Hall of Whispers]"],
+    "civilopediaText": [{"text": "Rahasia adalah komoditas termahal, dan Jinn adalah pedagangnya."}]
+  },
+  {
+    "name": "Runestone Lore",
+    "type": "Follower",
+    "uniques": ["[+1] [Science] from every [Runestone]"],
+    "civilopediaText": [{"text": "Setiap ukiran adalah doa, setiap batu adalah perpustakaan."}]
+  },
+  {
+    "name": "Hutan Berbicara",
+    "type": "Follower",
+    "uniques": ["[+1] [Food] and [+1] [Production] from [Forest] tiles"],
+    "civilopediaText": [{"text": "Hutan bukanlah tempat tinggal; ia adalah dewa yang hidup."}]
+  },
+  {
+    "name": "Ziggurat Cahaya",
+    "type": "Follower",
+    "uniques": ["[+1] [Science] from every [Ziggurat of Shamash]"],
+    "civilopediaText": [{"text": "Cahaya Shamash mengalir melalui batu bertingkat."}]
+  },
+  {
+    "name": "Khotbah Para Oracle",
+    "type": "Enhancer",
+    "uniques": ["[+50]% [Pressure] from [Missionaries]"],
+    "civilopediaText": [{"text": "Kata-kata Oracle membawa tekanan ilahi yang tak terbendung."}]
+  },
+  {
+    "name": "Ziarah Abadi",
+    "type": "Enhancer",
+    "uniques": ["[+1] [Movement] for [Civilian] units"],
+    "civilopediaText": [{"text": "Ziarah tidak pernah berhenti; ia hanya berpindah arah."}]
+  }
+]

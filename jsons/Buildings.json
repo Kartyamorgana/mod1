@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Monumen",
+    "cost": 40,
+    "culture": 2,
+    "requiredTech": "Mysticism",
+    "civilopediaText": [{"text": "Batu pertama peradaban."}]
+  },
+  {
+    "name": "Temple of Zeus",
+    "cost": 120,
+    "faith": 2,
+    "requiredTech": "Mysticism",
+    "uniques": ["[+15]% [Production] when building [Military] units"],
+    "civilopediaText": [{"text": "Kuil untuk raja para dewa, tempat kekuatan badai berkumpul."}]
+  },
+  {
+    "name": "Temple of Ra",
+    "cost": 120,
+    "faith": 3,
+    "requiredTech": "Mysticism",
+    "uniques": ["[+2] [Faith] from every [Obelisk of Ra]"],
+    "civilopediaText": [{"text": "Matahari adalah dewa tertinggi Duat, dan kuilnya adalah gerbang cahaya."}]
+  },
+  {
+    "name": "Obelisk of Ra",
+    "cost": 65,
+    "faith": 2,
+    "requiredTech": "Mysticism",
+    "uniqueTo": "Kekaisaran Duat",
+    "uniques": ["[+1] [Essence] per turn"],
+    "civilopediaText": [{"text": "Tiang batu yang menyalurkan esensi matahari."}]
+  },
+  {
+    "name": "Hall of Whispers",
+    "cost": 150,
+    "requiredTech": "Iron Working",
+    "uniqueTo": "Klan Jinn",
+    "uniques": ["[+50]% spy effectiveness [in all cities]", "[+1] [Science] from every [Spy]"],
+    "civilopediaText": [{"text": "Tempat di mana bayangan berbicara dan rahasia menjadi senjata."}]
+  },
+  {
+    "name": "Runestone",
+    "cost": 80,
+    "production": 2,
+    "requiredTech": "Bronze Working",
+    "uniqueTo": "Legiun Aesir",
+    "uniques": ["[+1] [Science] from every [Runestone]"],
+    "civilopediaText": [{"text": "Batu berukir yang menyimpan ilmu leluhur."}]
+  },
+  {
+    "name": "Trading Post",
+    "cost": 70,
+    "requiredTech": "Currency",
+    "uniqueTo": "Suku Bayangan",
+    "uniques": ["[+1] [Food] and [+1] [Production] from [Forest] tiles"],
+    "civilopediaText": [{"text": "Pos perdagangan yang menyatu dengan hutan."}]
+  },
+  {
+    "name": "Ley Line Menhir",
+    "cost": 90,
+    "science": 2,
+    "requiredTech": "Astrology",
+    "uniqueTo": "Hierarki Atlantis",
+    "uniques": ["[+2] [Science] from every [Ley Line]"],
+    "civilopediaText": [{"text": "Batu tegak yang menyalurkan energi Ley Line."}]
+  },
+  {
+    "name": "Ziggurat of Shamash",
+    "cost": 110,
+    "science": 3,
+    "requiredTech": "Mysticism",
+    "uniqueTo": "Dinasti Matahari",
+    "uniques": ["[+1] [Science] from every [Specialist]"],
+    "civilopediaText": [{"text": "Menara bertingkat yang menghubungkan bumi dengan matahari."}]
+  },
+  {
+    "name": "Labirin Minos",
+    "cost": 300,
+    "isWonder": true,
+    "requiredTech": "Bronze Working",
+    "uniques": ["Prevents [Barbarian] units from entering borders"],
+    "civilopediaText": [{"text": "Labirin yang membingungkan monster dan manusia."}]
+  },
+  {
+    "name": "Pilar Herkules",
+    "cost": 300,
+    "isWonder": true,
+    "requiredTech": "Sailing",
+    "uniques": ["[+2] Movement for all [Naval] units"],
+    "civilopediaText": [{"text": "Gerbang dunia, tempat kekuatan Herkules mengalir ke laut."}]
+  },
+  {
+    "name": "Menara Babel",
+    "cost": 350,
+    "isWonder": true,
+    "requiredTech": "Writing",
+    "uniques": ["[+5] [Science]", "[-2] [Happiness]"],
+    "civilopediaText": [{"text": "Menara yang mencoba menyentuh langit, dengan harga kesatuan umat."}]
+  }
+]
