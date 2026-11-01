@@ -1,40 +1,26 @@
 [
   {
-    "name": "Forge Artifact",
-    "choices": [
-      {
-        "text": "Tempa Artifact",
-        "triggeredUniques": ["Gain [3] [Artifact]"]
-      }
-    ]
-  },
-  {
-    "name": "Aesir Respawn",
-    "choices": [
-      {
-        "text": "Bangkit Kembali",
-        "triggeredUniques": ["[1] free [Warrior] units appear"]
-      }
-    ]
-  },
-  {
     "name": "The Sundering",
     "choices": [
       {
-        "text": "Hadapi Kekacauan",
+        "text": "Hadapi Kekacauan (Dapatkan Unit, Barbar Menguat)",
         "triggeredUniques": [
           "[3] free [Berserker] units appear",
           "All [Barbarian] units gain [50]% Strength"
         ]
       },
       {
-        "text": "Cari Ilmu",
-        "triggeredUniques": ["[2] Free Technologies"],
-        "conditions": ["<before the [Age of Titans]>"]
+        "text": "Cari Ilmu (Dapatkan Teknologi Gratis)",
+        "triggeredUniques": [
+          "[2] Free Technologies"
+        ]
       },
       {
-        "text": "Bangun Perlindungan",
-        "triggeredUniques": ["Empire enters golden age", "[-2] [Happiness]"]
+        "text": "Bangun Perlindungan (Golden Age, Kebahagiaan Turun)",
+        "triggeredUniques": [
+          "Empire enters golden age",
+          "[-2 Happiness] [in all cities]"
+        ]
       }
     ]
   },
@@ -42,17 +28,25 @@
     "name": "Titanomachy",
     "choices": [
       {
-        "text": "Hadapi Titan",
-        "triggeredUniques": ["[1] free [Titan] units appear", "All [Barbarian] units gain [30]% Strength"]
+        "text": "Hadapi Titan (Titan Muncul, Barbar Sangat Kuat)",
+        "triggeredUniques": [
+          "[1] free [Titan] units appear",
+          "All [Barbarian] units gain [30]% Strength"
+        ]
       },
       {
-        "text": "Cari Bantuan Dewa",
-        "triggeredUniques": ["[2] free [Anubis Warrior] units appear", "[-50]% [Science]"],
-        "conditions": ["<when above [500] [Faith]>"]
+        "text": "Cari Bantuan Dewa (Unit Gratis, Sains Turun)",
+        "triggeredUniques": [
+          "[2] free [Anubis Warrior] units appear",
+          "[-50]% [Science]"
+        ]
       },
       {
-        "text": "Bangun Pertahanan",
-        "triggeredUniques": ["Empire enters golden age", "[+50]% [Strength] for cities"]
+        "text": "Bangun Pertahanan (Golden Age, Pertahanan Kota Meningkat)",
+        "triggeredUniques": [
+          "Empire enters golden age",
+          "[+50]% Strength for cities"
+        ]
       }
     ]
   }

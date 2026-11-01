@@ -1,41 +1,32 @@
 [
-  {
-    "name": "Menhir",
-    "terrainsCanBeFoundOn": ["Ley Line"],
-    "techRequired": "Astrology",
-    "turnsToBuild": 6,
-    "science": 2,
-    "uniques": ["[+1] [Science] from every [Ley Line]"],
-    "civilopediaText": [{"text": "Batu tegak yang menyalurkan energi Ley Line ke kota."}]
+  { 
+    "name": "Menhir", 
+    "terrainsCanBeBuiltOn": ["Grassland", "Plains", "Desert"], 
+    "techRequired": "Astrology", 
+    "turnsToBuild": 6, 
+    "science": 2 
   },
-  {
-    "name": "Runestone",
-    "terrainsCanBeFoundOn": ["Tundra", "Hills"],
-    "techRequired": "Bronze Working",
-    "turnsToBuild": 5,
-    "production": 1,
-    "science": 1,
-    "uniqueTo": "Legiun Aesir",
-    "civilopediaText": [{"text": "Batu berukir yang menyimpan ilmu leluhur dan doa perang."}]
+  { 
+    "name": "Runestone", 
+    "terrainsCanBeBuiltOn": ["Tundra", "Hill"], 
+    "techRequired": "Bronze Working", 
+    "turnsToBuild": 5, 
+    "production": 1, 
+    "science": 1 
   },
-  {
-    "name": "Royal Road",
-    "terrainsCanBeFoundOn": ["Grassland", "Plains", "Desert"],
-    "techRequired": "Currency",
-    "turnsToBuild": 4,
-    "gold": 1,
-    "uniques": ["[+1] [Movement] for units on this tile"],
-    "uniqueTo": "Kekaisaran Persia",
-    "civilopediaText": [{"text": "Jalan yang menghubungkan capital ke seluruh penjuru kekaisaran."}]
+  { 
+    "name": "Royal Road", 
+    "terrainsCanBeBuiltOn": ["Grassland", "Plains", "Desert"], 
+    "techRequired": "Currency", 
+    "turnsToBuild": 4, 
+    "gold": 1 
   },
-  {
-    "name": "Trading Post",
-    "terrainsCanBeFoundOn": ["Forest", "Hutan Purba"],
-    "techRequired": "Currency",
-    "turnsToBuild": 5,
-    "food": 1,
-    "production": 1,
-    "uniqueTo": "Suku Bayangan",
-    "civilopediaText": [{"text": "Pos perdagangan yang menyatu dengan hutan, tempat alam dan ekonomi bertemu."}]
+  { 
+    "name": "Trading Post", 
+    "terrainsCanBeBuiltOn": ["Forest", "Jungle"], 
+    "techRequired": "Currency", 
+    "turnsToBuild": 5, 
+    "food": 1, 
+    "production": 1 
   }
 ]

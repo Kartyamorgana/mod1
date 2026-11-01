@@ -1,9 +1,9 @@
 {
   "uniques": [
-    "Triggers a [The Sundering] event <upon entering the [Medieval era]>",
-    "Triggers a [Titanomachy] event <upon entering the [Age of Titans]>",
-    "[+1] [Science] from every [Trade route]",
+    "Triggers a [The Sundering] event <upon entering the [Age of Heroes] era>",
+    "Triggers a [Titanomachy] event <upon entering the [Age of Titans] era>",
+    "[+1 Science] from every [Trade route]",
     "[+10]% [Production] when building [Military] units <when at war>",
-    "[+1] [Movement] for [Naval] units"
+    "[+1] Movement for [Naval] units"
   ]
 }

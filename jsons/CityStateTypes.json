@@ -1,23 +1,20 @@
 [
-  {
-    "name": "Oracle",
-    "friendBonusUniques": ["[+3] [Faith]"],
-    "allyBonusUniques": ["[+6] [Faith]", "[+1] [Great Prophet] points per turn"],
-    "color": [200, 180, 255],
-    "civilopediaText": [{"text": "City-State yang menjaga kuil-kuil kuno dan berbicara atas nama dewa."}]
+  { 
+    "name": "Oracle-State", 
+    "friendBonusUniques": ["[+3 Faith]"], 
+    "allyBonusUniques": ["[+6 Faith]"], 
+    "color": [200, 180, 255] 
   },
-  {
-    "name": "Akademi Titan",
-    "friendBonusUniques": ["[+3] [Science]"],
-    "allyBonusUniques": ["[+6] [Science]", "[+1] [Great Scientist] points per turn"],
-    "color": [100, 200, 255],
-    "civilopediaText": [{"text": "Sisa-sisa pengetahuan para Titan, dijaga oleh para sarjana."}]
+  { 
+    "name": "Akademi Titan", 
+    "friendBonusUniques": ["[+3 Science]"], 
+    "allyBonusUniques": ["[+6 Science]"], 
+    "color": [100, 200, 255] 
   },
-  {
-    "name": "Legiun Bayaran",
-    "friendBonusUniques": ["[+2] [Production] when building [Military] units"],
-    "allyBonusUniques": ["[+4] [Production] when building [Military] units", "Provides a free [Berserker] unit every 10 turns"],
-    "color": [255, 100, 100],
-    "civilopediaText": [{"text": "Tidak ada dewa yang setia, tetapi setiap koin memiliki tujuannya."}]
+  { 
+    "name": "Legiun Bayaran", 
+    "friendBonusUniques": ["[+2 Production] when building Military units"], 
+    "allyBonusUniques": ["[+4 Production] when building Military units"], 
+    "color": [255, 100, 100] 
   }
 ]

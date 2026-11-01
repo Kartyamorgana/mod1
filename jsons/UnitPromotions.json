@@ -1,27 +1,5 @@
 [
-  {
-    "name": "Phase Shift",
-    "uniques": ["Invisible to others <for [1] movement>", "Cannot attack <for [1] movement>"],
-    "civilopediaText": [{"text": "Unit menghilang dari pandangan selama satu gerakan, tetapi tidak bisa menyerang."}]
-  },
-  {
-    "name": "Forest Invisibility",
-    "uniques": ["Invisible to others <in [Forest] tiles>"],
-    "civilopediaText": [{"text": "Unit menyatu dengan hutan dan tidak terlihat di dalamnya."}]
-  },
-  {
-    "name": "Invulnerability",
-    "uniques": ["+50% Strength when defending"],
-    "civilopediaText": [{"text": "Hero terlindungi dari serangan biasa, kecuali di titik lemahnya."}]
-  },
-  {
-    "name": "Berserker Rage",
-    "uniques": ["+30% Strength when attacking"],
-    "civilopediaText": [{"text": "Amukan yang meningkatkan kekuatan serangan."}]
-  },
-  {
-    "name": "Essence Reaper",
-    "uniques": ["Gain [1] [Essence] <upon killing a unit>"],
-    "civilopediaText": [{"text": "Mengumpulkan esensi dari setiap kematian."}]
-  }
+  { "name": "Forest Invisibility", "uniques": ["Invisible to others <in [Forest] tiles>"] },
+  { "name": "Invulnerability", "uniques": ["[+50]% Strength <when defending>"] },
+  { "name": "Berserker Rage", "uniques": ["[+30]% Strength <when attacking>"] }
 ]

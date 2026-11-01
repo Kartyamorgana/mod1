@@ -3,115 +3,66 @@
     "name": "Kekaisaran Duat",
     "leaderName": "Firaun Abadi",
     "adjective": ["Duatian"],
-    "cityNames": ["Memphis", "Thebes", "Abydos", "Heliopolis", "Giza", "Sais", "Edfu", "Karnak"],
-    "unique": [
-      "Cannot produce [Military] units with [Production]",
-      "Gain [2] [Essence] <upon killing a unit>",
-      "Can purchase [Military] units with [Essence]"
-    ],
+    "cityNames": ["Memphis", "Thebes", "Abydos", "Heliopolis", "Giza", "Sais", "Edfu", "Karnak", "Luxor", "Aswan"],
+    "unique": ["Cannot produce [Military] units with [Production]"],
     "uniqueUnits": ["Medjay", "Anubis Warrior"],
     "uniqueBuildings": ["Obelisk of Ra"],
-    "innerColor": [255, 215, 0],
-    "outerColor": [20, 20, 20],
-    "startBias": ["Desert"],
-    "civilopediaText": [
-      {"text": "Sisa-sisa alam kematian yang runtuh setelah The Sundering. Duat bukanlah kerajaan orang hidup, melainkan perpanjangan dari kehendak para dewa kematian."},
-      {"text": "Mereka tidak memproduksi tentara; mereka membangkitkan yang telah gugur."}
-    ]
+    "innerColor": [255, 215, 0], 
+    "outerColor": [20, 20, 20]
   },
   {
     "name": "Legiun Aesir",
-    "leaderName": "Odin yang Berkeliaran",
+    "leaderName": "Odin",
     "adjective": ["Aesir"],
-    "cityNames": ["Asgard", "Midgard", "Vanaheim", "Alfheim", "Jotunheim", "Niflheim", "Muspelheim", "Helheim"],
-    "unique": [
-      "Cannot make peace",
-      "Gain [15] [Production] <upon winning a battle>",
-      "Triggers a [Aesir Respawn] event <upon death>"
-    ],
+    "cityNames": ["Asgard", "Midgard", "Vanaheim", "Alfheim", "Jotunheim", "Niflheim", "Muspelheim", "Helheim", "Svartalfheim", "Bifrost"],
+    "unique": ["Cannot make peace"],
     "uniqueUnits": ["Berserker", "Valkyrie"],
     "uniqueBuildings": ["Runestone"],
-    "innerColor": [180, 30, 30],
-    "outerColor": [40, 40, 60],
-    "startBias": ["Tundra"],
-    "civilopediaText": [
-      {"text": "Legiun Aesir terperangkap dalam perang abadi. Mereka tidak mengenal damai, hanya kemenangan atau kematian yang mulia."}
-    ]
+    "innerColor": [195, 75, 75], 
+    "outerColor": [35, 35, 51]
   },
   {
     "name": "Hierarki Atlantis",
-    "leaderName": "Raja-Pendeta Poseidon",
+    "leaderName": "Raja Poseidon",
     "adjective": ["Atlantean"],
-    "cityNames": ["Atlantis", "Poseidonia", "Cleito", "Eumelus", "Gadeirus", "Azaes", "Diaprepes"],
-    "unique": [
-      "Cannot build [Settler]",
-      "Capital city gets +5 tile work range",
-      "Puppet cities provide full [Science] and [Culture]"
-    ],
+    "cityNames": ["Atlantis", "Poseidonia", "Cleito", "Eumelus", "Gadeirus", "Azaes", "Diaprepes", "Mneseus", "Autochthon", "Elasippus"],
+    "unique": ["Cannot build [Settler]"],
     "uniqueUnits": ["Triton Guard"],
     "uniqueBuildings": ["Ley Line Menhir"],
-    "innerColor": [0, 200, 200],
-    "outerColor": [10, 30, 80],
-    "startBias": ["Coast"],
-    "civilopediaText": [
-      {"text": "Atlantis adalah satu kota yang berpikir dirinya dunia. Setelah The Sundering, mereka menarik diri ke pulau terakhir mereka dan menguasai Ley Line."}
-    ]
+    "innerColor": [0, 200, 200], 
+    "outerColor": [10, 30, 80]
   },
   {
     "name": "Klan Jinn",
     "leaderName": "Sultan Bayangan",
     "adjective": ["Jinn"],
-    "cityNames": ["Al-Jinn", "Iram", "Ubar", "Shaddad", "Zafir", "Ad", "Thamud", "Mada'in"],
-    "unique": [
-      "Units gain [Phase Shift] promotion",
-      "Trade routes provide [1] [Science] in addition to [Gold]",
-      "Gain [1] Spy <upon entering the [Classical era]>"
-    ],
+    "cityNames": ["Al-Jinn", "Iram", "Ubar", "Shaddad", "Zafir", "Ad", "Thamud", "Mada'in", "Hijr", "Dumat"],
+    "unique": ["[+1 Science] from every [Trade route]"],
     "uniqueUnits": ["Hashashin", "Jinn Siphon"],
     "uniqueBuildings": ["Hall of Whispers"],
-    "innerColor": [80, 0, 120],
-    "outerColor": [15, 15, 25],
-    "startBias": ["Desert"],
-    "civilopediaText": [
-      {"text": "Klan Jinn bergerak di antara dimensi. Mereka tidak pernah sepenuhnya hadir di satu tempat, dan tidak pernah sepenuhnya hilang."}
-    ]
+    "innerColor": [132, 76, 160], 
+    "outerColor": [15, 15, 22]
   },
   {
     "name": "Suku Bayangan",
-    "leaderName": "Penjaga Hutan Purba",
+    "leaderName": "Penjaga Hutan",
     "adjective": ["Shadowfolk"],
-    "cityNames": ["Shadowvale", "Mosswatch", "Thornhide", "Darkroot", "Fernreach", "Barkhold", "Gladehome"],
-    "unique": [
-      "Units gain [Forest Invisibility] promotion",
-      "Trading Post provides [1] [Food] and [1] [Production] from [Forest] tiles",
-      "Cannot build [Farm]"
-    ],
+    "cityNames": ["Shadowvale", "Mosswatch", "Thornhide", "Darkroot", "Fernreach", "Barkhold", "Gladehome", "Leafhaven", "Rootsdeep", "Wispwood"],
+    "unique": ["Cannot build [Farm]"],
     "uniqueUnits": ["Shadow Scout"],
     "uniqueBuildings": ["Trading Post"],
-    "innerColor": [30, 100, 30],
-    "outerColor": [10, 30, 10],
-    "startBias": ["Forest"],
-    "civilopediaText": [
-      {"text": "Suku Bayangan tidak menaklukkan alam; mereka menjadi bagian darinya. Di hutan purba, mereka adalah bisikan yang tidak pernah terlihat."}
-    ]
+    "innerColor": [52, 115, 52], 
+    "outerColor": [10, 28, 10]
   },
   {
     "name": "Dinasti Matahari",
-    "leaderName": "Raja-Pendeta Shamash",
+    "leaderName": "Raja Shamash",
     "adjective": ["Solarian"],
-    "cityNames": ["Ur", "Uruk", "Babylon", "Nippur", "Lagash", "Eridu", "Kish", "Larsa"],
-    "unique": [
-      "Cannot build [Settler]",
-      "Can annex [City-State] with sufficient [Influence]",
-      "Each [Specialist] provides +1 [Science]"
-    ],
+    "cityNames": ["Ur", "Uruk", "Babylon", "Nippur", "Lagash", "Eridu", "Kish", "Larsa", "Isin", "Umma"],
+    "unique": ["Cannot build [Settler]"],
     "uniqueUnits": ["Sun Priest"],
     "uniqueBuildings": ["Ziggurat of Shamash"],
-    "innerColor": [255, 180, 0],
-    "outerColor": [120, 60, 0],
-    "startBias": ["River"],
-    "civilopediaText": [
-      {"text": "Dinasti Matahari percaya bahwa mereka adalah umat yang terpilih. Mereka tidak perlu memperluas diri; mereka hanya perlu menyerap cahaya."}
-    ]
+    "innerColor": [255, 180, 0], 
+    "outerColor": [120, 60, 0]
   }
 ]

@@ -1,59 +1,15 @@
 [
-  {
-    "name": "Monumen", "cost": 40, "culture": 2, "requiredTech": "Mysticism"
-  },
-  {
-    "name": "Temple of Zeus", "cost": 120, "faith": 2, "requiredTech": "Mysticism",
-    "uniques": ["[+15]% [Production] when building [Military] units"]
-  },
-  {
-    "name": "Temple of Ra", "cost": 120, "faith": 3, "requiredTech": "Mysticism",
-    "uniques": ["[+2] [Faith] from every [Obelisk of Ra]"]
-  },
-  {
-    "name": "Obelisk of Ra", "cost": 65, "faith": 2, "requiredTech": "Mysticism",
-    "uniqueTo": "Kekaisaran Duat",
-    "uniques": ["[+1] [Essence] per turn"]
-  },
-  {
-    "name": "Hall of Whispers", "cost": 150, "requiredTech": "Iron Working",
-    "uniqueTo": "Klan Jinn",
-    "uniques": ["[+50]% spy effectiveness [in all cities]", "[+1] [Science] from every [Spy]"]
-  },
-  {
-    "name": "Runestone", "cost": 80, "production": 2, "requiredTech": "Bronze Working",
-    "uniqueTo": "Legiun Aesir",
-    "uniques": ["[+1] [Science] from every [Runestone]"]
-  },
-  {
-    "name": "Trading Post", "cost": 70, "requiredTech": "Currency",
-    "uniqueTo": "Suku Bayangan",
-    "uniques": ["[+1] [Food] and [+1] [Production] from [Forest] tiles"]
-  },
-  {
-    "name": "Ley Line Menhir", "cost": 90, "science": 2, "requiredTech": "Astrology",
-    "uniqueTo": "Hierarki Atlantis",
-    "uniques": ["[+2] [Science] from every [Ley Line]"]
-  },
-  {
-    "name": "Ziggurat of Shamash", "cost": 110, "science": 3, "requiredTech": "Mysticism",
-    "uniqueTo": "Dinasti Matahari",
-    "uniques": ["[+1] [Science] from every [Specialist]"]
-  },
-  {
-    "name": "Forge of the Gods", "cost": 180, "requiredTech": "Iron Working",
-    "uniques": ["Costs [10] [Essence]", "Triggers a [Forge Artifact] event <upon construction>"]
-  },
-  {
-    "name": "Labirin Minos", "cost": 300, "isWonder": true, "requiredTech": "Bronze Working",
-    "uniques": ["Prevents [Barbarian] units from entering borders"]
-  },
-  {
-    "name": "Pilar Herkules", "cost": 300, "isWonder": true, "requiredTech": "Sailing",
-    "uniques": ["[+2] Movement for all [Naval] units"]
-  },
-  {
-    "name": "Menara Babel", "cost": 350, "isWonder": true, "requiredTech": "Writing",
-    "uniques": ["[+5] [Science]", "[-2] [Happiness]"]
-  }
+  { "name": "Monumen", "cost": 40, "culture": 2, "requiredTech": "Mysticism" },
+  { "name": "Temple of Zeus", "cost": 120, "faith": 2, "requiredTech": "Mysticism", "uniques": ["[+15]% Production when building Military units"] },
+  { "name": "Temple of Ra", "cost": 120, "faith": 3, "requiredTech": "Mysticism" },
+  { "name": "Obelisk of Ra", "cost": 65, "faith": 2, "requiredTech": "Mysticism", "uniqueTo": "Kekaisaran Duat" },
+  { "name": "Hall of Whispers", "cost": 150, "requiredTech": "Iron Working", "uniqueTo": "Klan Jinn", "uniques": ["[+50]% spy effectiveness [in all cities]"] },
+  { "name": "Runestone", "cost": 80, "production": 2, "requiredTech": "Bronze Working", "uniqueTo": "Legiun Aesir" },
+  { "name": "Trading Post", "cost": 70, "requiredTech": "Currency", "uniqueTo": "Suku Bayangan" },
+  { "name": "Ley Line Menhir", "cost": 90, "science": 2, "requiredTech": "Astrology", "uniqueTo": "Hierarki Atlantis" },
+  { "name": "Ziggurat of Shamash", "cost": 110, "science": 3, "requiredTech": "Mysticism", "uniqueTo": "Dinasti Matahari" },
+  { "name": "Forge of the Gods", "cost": 180, "requiredTech": "Iron Working" },
+  { "name": "Labirin Minos", "cost": 300, "isWonder": true, "requiredTech": "Bronze Working" },
+  { "name": "Pilar Herkules", "cost": 300, "isWonder": true, "requiredTech": "Sailing", "uniques": ["[+2] Movement for [Naval] units"] },
+  { "name": "Menara Babel", "cost": 350, "isWonder": true, "requiredTech": "Writing", "uniques": ["[+5 Science]", "[-2 Happiness]"] }
 ]

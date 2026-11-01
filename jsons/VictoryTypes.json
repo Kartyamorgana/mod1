@@ -10,30 +10,25 @@
       "Build [Labirin Minos]",
       "Build [Pilar Herkules]",
       "Build [Menara Babel]"
-    ],
-    "civilopediaText": [{"text": "Kemenangan melalui penyatuan keajaiban ilahi."}]
+    ]
   },
   {
     "name": "Kemenangan Ascension",
-    "victoryScreenHeader": "Kumpulkan Essence dan Divine Favor untuk mendaki ke alam dewa",
+    "victoryScreenHeader": "Kumpulkan Divine Favor (Faith) terbanyak untuk mendaki ke alam dewa",
     "victoryString": "Anda telah melampaui dunia fana dan menjadi dewa baru.",
     "defeatString": "Faksi lain telah mendaki, meninggalkan Anda di dunia yang hancur.",
     "milestones": [
-      "Have more [Essence] than each player's [Essence]",
       "Have more [Faith] than each player's [Faith]"
-    ],
-    "civilopediaText": [{"text": "Kemenangan melalui akumulasi energi ilahi."}]
+    ]
   },
   {
     "name": "Kemenangan Bayangan",
-    "victoryScreenHeader": "Kendalikan dunia melalui spionase dan diplomasi",
+    "victoryScreenHeader": "Kendalikan dunia melalui diplomasi dan kekayaan",
     "victoryString": "Anda menguasai semua yang terlihat dan tidak terlihat. Dunia adalah boneka Anda.",
     "defeatString": "Bayangan lain telah menang, dan Anda tidak pernah melihatnya datang.",
     "milestones": [
-      "Win diplomatic vote",
-      "Have more [Spy] than each player's [Spy]"
-    ],
-    "civilopediaText": [{"text": "Kemenangan melalui manipulasi dan rahasia."}]
+      "Win diplomatic vote"
+    ]
   },
   {
     "name": "Kemenangan Titan",
@@ -42,7 +37,6 @@
     "defeatString": "Titan terakhir telah jatuh, dan dunia milik yang lain.",
     "milestones": [
       "Destroy all players"
-    ],
-    "civilopediaText": [{"text": "Kemenangan melalui dominasi militer mutlak."}]
+    ]
   }
 ]

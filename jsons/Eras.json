@@ -5,11 +5,8 @@
     "iconRGB": [150, 100, 255],
     "unitBaseBuyCost": 100,
     "startingSettlerCount": 1,
-    "startingSettlerUnit": "Settler",
     "startingWorkerCount": 1,
-    "startingWorkerUnit": "Worker",
-    "startingMilitaryUnitCount": 1,
-    "startingMilitaryUnit": "Warrior"
+    "startingMilitaryUnitCount": 1
   },
   {
     "name": "Age of Heroes",
@@ -17,11 +14,8 @@
     "iconRGB": [255, 200, 0],
     "unitBaseBuyCost": 200,
     "startingSettlerCount": 1,
-    "startingSettlerUnit": "Settler",
     "startingWorkerCount": 1,
-    "startingWorkerUnit": "Worker",
-    "startingMilitaryUnitCount": 1,
-    "startingMilitaryUnit": "Warrior"
+    "startingMilitaryUnitCount": 1
   },
   {
     "name": "Age of Gods",
@@ -29,11 +23,8 @@
     "iconRGB": [255, 100, 100],
     "unitBaseBuyCost": 350,
     "startingSettlerCount": 1,
-    "startingSettlerUnit": "Settler",
     "startingWorkerCount": 1,
-    "startingWorkerUnit": "Worker",
-    "startingMilitaryUnitCount": 1,
-    "startingMilitaryUnit": "Warrior"
+    "startingMilitaryUnitCount": 1
   },
   {
     "name": "Age of Titans",
@@ -41,10 +32,7 @@
     "iconRGB": [200, 0, 0],
     "unitBaseBuyCost": 500,
     "startingSettlerCount": 1,
-    "startingSettlerUnit": "Settler",
     "startingWorkerCount": 1,
-    "startingWorkerUnit": "Worker",
-    "startingMilitaryUnitCount": 1,
-    "startingMilitaryUnit": "Warrior"
+    "startingMilitaryUnitCount": 1
   }
 ]
