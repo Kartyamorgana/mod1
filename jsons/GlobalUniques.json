@@ -4,7 +4,6 @@
     "Triggers a [Titanomachy] event <upon entering the [Age of Titans]>",
     "[+1] [Science] from every [Trade route]",
     "[+10]% [Production] when building [Military] units <when at war>",
-    "[+1] [Movement] for [Naval] units",
-    "[+50]% spy effectiveness [in all cities]"
+    "[+1] [Movement] for [Naval] units"
   ]
 }

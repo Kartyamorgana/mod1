@@ -1,60 +1,58 @@
 [
   {
+    "name": "Forge Artifact",
+    "choices": [
+      {
+        "text": "Tempa Artifact",
+        "triggeredUniques": ["Gain [3] [Artifact]"]
+      }
+    ]
+  },
+  {
+    "name": "Aesir Respawn",
+    "choices": [
+      {
+        "text": "Bangkit Kembali",
+        "triggeredUniques": ["[1] free [Warrior] units appear"]
+      }
+    ]
+  },
+  {
     "name": "The Sundering",
-    "civilopediaText": [{"text": "Tirai antar-dunia robek. Tidak ada yang sama setelah ini."}],
     "choices": [
       {
         "text": "Hadapi Kekacauan",
         "triggeredUniques": [
           "[3] free [Berserker] units appear",
           "All [Barbarian] units gain [50]% Strength"
-        ],
-        "civilopediaText": [{"text": "Kekuatan datang dengan harga: dunia menjadi lebih berbahaya."}]
+        ]
       },
       {
         "text": "Cari Ilmu",
         "triggeredUniques": ["[2] Free Technologies"],
-        "conditions": ["<before the [Age of Titans]>"],
-        "civilopediaText": [{"text": "Pengetahuan adalah senjata, tetapi juga kutukan."}]
+        "conditions": ["<before the [Age of Titans]>"]
       },
       {
         "text": "Bangun Perlindungan",
-        "triggeredUniques": [
-          "Empire enters golden age",
-          "[-2] [Happiness]"
-        ],
-        "civilopediaText": [{"text": "Tembok tinggi melindungi, tetapi juga mengurung."}]
+        "triggeredUniques": ["Empire enters golden age", "[-2] [Happiness]"]
       }
     ]
   },
   {
     "name": "Titanomachy",
-    "civilopediaText": [{"text": "Titan bangkit dari tidur panjangnya. Semua faksi harus menghadapi atau binasa."}],
     "choices": [
       {
         "text": "Hadapi Titan",
-        "triggeredUniques": [
-          "[1] free [Titan] units appear",
-          "All [Barbarian] units gain [30]% Strength"
-        ],
-        "civilopediaText": [{"text": "Titan adalah ujian terakhir; hanya yang terkuat yang bertahan."}]
+        "triggeredUniques": ["[1] free [Titan] units appear", "All [Barbarian] units gain [30]% Strength"]
       },
       {
         "text": "Cari Bantuan Dewa",
-        "triggeredUniques": [
-          "[2] free [Anubis Warrior] units appear",
-          "[-50]% [Science]"
-        ],
-        "conditions": ["<when above [500] [Faith]>"],
-        "civilopediaText": [{"text": "Para dewa menjawab, tetapi tidak gratis."}]
+        "triggeredUniques": ["[2] free [Anubis Warrior] units appear", "[-50]% [Science]"],
+        "conditions": ["<when above [500] [Faith]>"]
       },
       {
         "text": "Bangun Pertahanan",
-        "triggeredUniques": [
-          "Empire enters golden age",
-          "[+50]% [Strength] for cities"
-        ],
-        "civilopediaText": [{"text": "Tembok dan doa adalah perisai terbaik."}]
+        "triggeredUniques": ["Empire enters golden age", "[+50]% [Strength] for cities"]
       }
     ]
   }
